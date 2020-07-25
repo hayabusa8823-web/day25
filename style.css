@@ -1,0 +1,133 @@
+header{
+  width: 100%;
+  height: 50px;
+  background-color: green;
+}
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-size: 12px;
+}
+.inner{
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+
+.next-destination{
+  height: 280px;
+  background-image: url(images/yamanote-top.jpeg);
+  background-size: cover;
+  opacity: 0.7;
+  
+}
+
+.next-show{
+  padding-top: 5px;
+}
+
+
+
+.page-title{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  line-height: 50px;
+}
+
+.heading{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 0;
+  /* background-color: white; */
+  margin: 5px 0;
+}
+
+.now-position-text{
+  font-size: 16px;
+  background-color: rgba(17, 253, 9, 0.8);
+  color:black;
+  padding:5px 0;
+  border-radius: 5px;
+  display: inline-block;
+  
+  
+}
+
+.label{
+  width: 27%;
+}
+.result{
+  width: 50%;
+  font-weight: bold;
+}
+
+.remain-squres-text{
+  font-size: 16px;
+  color:black;
+  padding:5px 0;
+  border-radius: 5px;
+  background-color: rgba(17, 253, 9, 0.8);
+  width:80%;
+  margin: 5px auto;
+}
+
+.next-destination-text{
+  font-size: 16px;
+  font-weight: bold;
+  border: 3px solid green;
+  padding: 10px 0;
+  width: 80%;
+  margin: 5px auto;
+  background-color:white ;
+  
+}
+
+
+
+
+.btn {
+  display: inline-block;
+  width: 150px;
+  padding:10px 0;
+  margin: 10px 0;
+  cursor: pointer;
+  width: 80%;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.sai-image{
+  width:80px;
+  height: 80px;
+  display: block;
+  margin: 20px auto;
+}
+
+.yamanote-image{
+  width: 100%;
+}
+
+.random-event-text{
+  border: 2px solid green;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 10px 0;
+  height: 57px;
+}
+
+.goal{
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  color: red;
+  background-color: rgba(17, 253, 9, 0.8);
+}
