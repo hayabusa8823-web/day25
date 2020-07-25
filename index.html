@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>リアル桃鉄＠JR山手線編</title>
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <h1 class="page-title">一人PLAYリアル桃鉄＠JR山手線</h1>
+    </div>
+  </header>
+
+
+  <section class="next-destination">
+    <div class="inner">
+
+      
+      <div id="next-show" class="next-show">
+        <h2 class="heading">次の目的地はコチラ！</h2>
+        <p id="next-destination-text" class="next-destination-text">「行き先を決める」ボタンを押してね</p>
+      </div>
+  
+      <button id="button1" class="btn">行き先を決める</button>
+      
+
+      <div class="now-position">
+        <span class="now-position-text label">現在地</span>
+        <span id="now-position-text" class="now-position-text result">池袋（出発地点）</span>
+        <p id="remain-squres-text" class="remain-squres-text">目的地まで残り？駅</p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <p id="goal" class="goal"></p>
+
+  <section class="saikoro">
+    <div class="inner">
+
+      <!-- <h2 class="heading">サイコロを振ろう！</h2> -->
+      <div id="sai-show">
+        <h2 class="heading">当駅での発生イベント</h2>
+        <p id="random-event-text" class="random-event-text">サイコロを振ったら<br>ランダムにイベントが発生するよ</p>
+
+        <img id="sai-image" class="sai-image" src="images/1.png">
+      </div>
+      <button id="button2" class="btn">サイコロを振る</button>
+  
+
+    </div>    
+  </section>
+
+  <section>
+    <div class="inner">
+      <h2 class="heading">山手線路線図</h2>
+      <div>
+        <img class="yamanote-image" src="images/yamanote.png">
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <footer>
+    <p> Copyright HAYABUSA all right reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
